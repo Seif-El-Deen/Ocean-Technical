@@ -295,6 +295,17 @@ div#preloader {
   }
 }
 
+@media (max-width: 400px) {
+  /* #header {
+    height: 64px;
+    background: rgba(0, 0, 0, 0.8);
+  } */
+
+  #header .logo h1 {
+    font-size: 14px;
+  }
+}
+
 .header-bg {
   background: url(../img/background/page-header.jpg);
   background-repeat: no-repeat;
@@ -2577,3 +2588,30 @@ span.email-notes {
     padding: 0;
   }
 }
+
+
+
+.floating-buttons {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+/* a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+} */
+
+.whatsapp-button {
+  background-color: #25D366; 
+  color: white;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+}
+
