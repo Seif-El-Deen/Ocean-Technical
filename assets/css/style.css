@@ -119,7 +119,7 @@ body {
   color: #444;
   font-family: "Open Sans", sans-serif;
   font-size: 14px;
-  text-align: left;
+  text-align: right;
   overflow-x: hidden;
   line-height: 22px;
 }
@@ -164,6 +164,9 @@ ul {
   list-style: outside none none;
   margin: 0;
   padding: 0;
+}
+ul li{
+  font-size: 20px;
 }
 
 input,
